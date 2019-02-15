@@ -9,7 +9,7 @@ public class Principal {
 		lector.nextLine(); 
 		lector.close();
 		for (int i=1; i<=10; i++) {
-			System.out.println
+			System.out.println //aaa
 			(numero + " x " + i + " = " + (numero*i));
 		}
 	}
