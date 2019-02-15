@@ -9,8 +9,9 @@ public class Principal {
 		lector.nextLine(); 
 		lector.close();
 		for (int i=1; i<=10; i++) {
-			System.out.println //aa
+			System.out.println 
 			(numero + " x " + i + " = " + (numero*i));
+		//Esto es una prueba de commit desde eclipse 
 		}
 	}
 
