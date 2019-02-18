@@ -28,8 +28,12 @@ public class Principal {
 		//veralmacen();
 		Almacen al=new Almacen("Juan Calos Noda", "Calle Latobano 5", "96451212132",almacen);
 		System.out.println(al.toString());
+
 		
 		System.out.println("holaadasfasfqweafqwetrfqweahg");
+
+		System.out.println("Prueba para Victor");
+
 	}
 
 	public static void procesarArticulo(Producto p) {
@@ -39,10 +43,10 @@ public class Principal {
 		System.out.println(p.prepararProducto());
 		importe = p.comprar(10);
 		System.out.println("Importe de la compra: " + importe);
-		System.out.println("Stock después de la compra: " + p.getStock());
+		System.out.println("Stock despuÃ©s de la compra: " + p.getStock());
 		importe = p.vender(5);
 		System.out.println("Importe de la venta: " + importe);
-		System.out.println("Stock después de la venta: " + p.getStock());
+		System.out.println("Stock despuÃ©s de la venta: " + p.getStock());
 	}
 	
 	public static  ArrayList<Producto> lista(Producto p){
