@@ -30,7 +30,7 @@ public class Principal {
 		System.out.println(al.toString());
 		
 		System.out.println("hola");
-		System.out.println("out222");
+		System.out.println("out2444");
 	}
 
 	public static void procesarArticulo(Producto p) {
