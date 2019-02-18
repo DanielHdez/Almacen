@@ -28,6 +28,7 @@ public class Principal {
 		//veralmacen();
 		Almacen al=new Almacen("Juan Calos Noda", "Calle Latobano 5", "96451212132",almacen);
 		System.out.println(al.toString());
+		System.out.println("Prueba para Victor");
 	}
 
 	public static void procesarArticulo(Producto p) {
