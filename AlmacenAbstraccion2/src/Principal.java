@@ -31,6 +31,9 @@ public class Principal {
 		
 		System.out.println("hola");
 		System.out.println("out2444");
+		
+		
+		System.out.println("esto va a la v4 ");
 	}
 
 	public static void procesarArticulo(Producto p) {
